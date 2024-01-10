@@ -44,11 +44,50 @@
 			<p>Pelo presente instrumento, devidamente assinado pelas partes contratantes e pelas
 				 testemunhas, de um lado, na qualidade de LOCADOR o Sr. {{ $student->nome_locador }},
 				 {{ $student->nacionalidade_locador }}, {{ $student->estado_civil_locador }}, portador da carteira de identidade nº. {{ $student->RG_locador }} expedida 
-				  pelo DETRAN-RJ e CPF nº. {{ $student->CPF_locador }}, e outra, na condição de LOCATÁRIOS, o sr 
-				  JEFFERSON SERAPHIM CONCEIÇÃO, brasileiro, 
-				  portador da Carteira de Identidade nº. 21.066.493-4 expedida pelo DETRAN-RJ e 
-				  CPF nº. 106.062.527-03 , 
-				  celebram o presente CONTRATO DE LOCAÇÃO obedecida às condições das cláusulas seguintes:</p>
+				  pelo DETRAN-RJ e CPF nº. {{ $student->CPF_locador }}, e outra, na condição de LOCATÁRIO, o sr 
+				  {{ $student->nome_locador }}, {{ $student->nacionalidade_locador }}, 
+				  portador da Carteira de Identidade nº. {{ $student->RG_locador }} expedida pelo DETRAN-RJ e 
+				  CPF nº. {{ $student->CPF_locador }} , 
+				  celebram o presente CONTRATO DE LOCAÇÃO obedecida às condições das cláusulas seguintes:CLÁUSULA PRIMEIRA – OBJETO:
+O objeto do presente CONTRATO DE LOCAÇÃO é o imóvel situado na {{ $student->logradouro_objeto }}, nº {{ $student->numero_objeto }} - {{ $student->complemento_objeto }} - {{ $student->bairro_objeto }} – {{ $student->cidade_objeto }} - {{ $student->UF_objeto }}, que os locatários recebem em perfeitas condições de habitabilidade comprometendo-se a devolvê-lo nas mesmas condições quando terminado o Contrato de Locação.
+
+CLÁUSULA SEGUNDA – PRAZO:
+O prazo da Locação é de 12 (Doze Meses) MESES, de {{ $student->duracao_contrato }}; findo o qual, o LOCATÁRIO obriga-se a restituí-lo livre e desimpedido de pessoas e de coisas ao LOCADOR, independentemente de qualquer notificação judicial ou extrajudicial, ou aviso, nos exatos termos da legislação vigente.
+
+CLÁUSULA TERCEIRA – ALUGUEL:
+O aluguel mensal, inicialmente é fixado em R$ {{ $student->valor_contrato }} (SEISCENTOS REAIS). A locação será corrigida pelo IGPM ou o maior índice determinado pelo governo. O vencimento será no quinto dia útil de cada mês para pagamento do aluguel e demais encargos, sem multa de prazo que, se excedido determinará multa de 10% (dez por cento) sobre o valor do recibo e mais 1% (hum por cento) ao mês ou fração de atraso a título de mora aplicável correção monetária nos termos da lei em vigor;
+
+CLÁUSULA QUARTA:
+O reajuste do aluguel ocorrerá anualmente, com periodicidade, desde que autorizada por Lei, observando o que consta na cláusula TERCEIRA, retro.
+
+CLÁUSULA QUINTA:
+O Locatário pagará além do aluguel, os encargos do imóvel tais como, luz, taxa incêndio ou qualquer outro tipo de encargo que venha recair sobre o imóvel, por determinação do governo federal, estadual ou municipal, que os encargos de água, IPTU e taxa de incêndio deverão ser entregues ao locador durante o tempo da locação todos quitados.
+
+CLÁUSULA SEXTA:
+É expressamente proibida a sublocação total ou parcial do imóvel, sob pena de imediata rescisão do contrato e pagamento de multa por infração contratual;
+
+CLÁUSULA SÉTIMA:
+Os aluguéis deverão ser pagos no local onde o Locador vier a determinar, dentro do período urbano do Rio de Janeiro;
+
+
+
+CLÁUSULA OITAVA:
+Ficam os locatários cientes de que não poderão fazer modificações internas ou externas no imóvel, sem a autorização do locador por escrito, que mesmo autorizado não caberá indenização aos locatários pelas benfeitorias feitas no imóvel, devendo as mesmas ficarem incorporadas ao imóvel.
+
+CLÁUSULA NONA:
+Que o locatário deverá avisar ao locador sobre o surgimento de umidade no imóvel, problemas de água e no encanamento, ou qualquer tipo de dano que caiba ao locador sanar desde que não tenha sido por culpa do locatário no uso do imóvel, caso em que se responsabilize o locatário pelo dano caberá a ele os reparos, sob pena de lei.
+
+CLÁUSULA DÉCIMA:
+Ficam os locatários responsáveis por eventuais casos de sinistros com incêndios, desabamento causado pelo locatário e seus dependentes, caso em que o dano será de plena responsabilidade do locatário, que arcará com os prejuízos.
+
+
+
+Fica eleito o foro desta cidade do Rio de Janeiro, para dirimir eventuais dúvidas e litígios dele oriundos, bem como para a sua execução, com exceção de qualquer outro, por mais especial que seja.
+       
+Rio de Janeiro, 01 de dezembro de 2022.
+
+E assim por estarem justos.
+</p>
 				
 			</div>
 	</div>
