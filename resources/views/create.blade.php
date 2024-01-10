@@ -81,6 +81,37 @@
 					<input type="text" name="CPF_locador" class="form-control" />
 				</div>
 			</div>
+            <!-- Locatário -->
+            <div class="row mb-3">
+				<label class="col-sm-2 col-label-form">Nome do Locador</label>
+				<div class="col-sm-10">
+					<input type="text" name="nome_locador" class="form-control" />
+				</div>
+			</div>
+
+            <div class="row mb-3">
+				<label class="col-sm-2 col-label-form">Nome do Locador</label>
+				<div class="col-sm-10">
+					<input type="text" name="nome_locador" class="form-control" />
+				</div>
+			</div>
+
+            <div class="row mb-3">
+				<label class="col-sm-2 col-label-form">Nome do Locador</label>
+				<div class="col-sm-10">
+					<input type="text" name="nome_locador" class="form-control" />
+				</div>
+			</div>
+
+            <div class="row mb-3">
+				<label class="col-sm-2 col-label-form">Nome do Locador</label>
+				<div class="col-sm-10">
+					<input type="text" name="nome_locador" class="form-control" />
+				</div>
+			</div>
+            
+            <!-- Objeto -->
+            <!-- Termos -->
 
 			<!-- -->
 
