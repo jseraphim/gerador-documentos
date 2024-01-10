@@ -81,37 +81,91 @@
 					<input type="text" name="CPF_locador" class="form-control" />
 				</div>
 			</div>
+
+            
             <!-- Locatário -->
             <div class="row mb-3">
-				<label class="col-sm-2 col-label-form">Nome do Locador</label>
+				<label class="col-sm-2 col-label-form">Nome do Locatário</label>
 				<div class="col-sm-10">
-					<input type="text" name="nome_locador" class="form-control" />
+					<input type="text" name="nome_locatario" class="form-control" />
 				</div>
 			</div>
 
             <div class="row mb-3">
 				<label class="col-sm-2 col-label-form">Nome do Locador</label>
 				<div class="col-sm-10">
-					<input type="text" name="nome_locador" class="form-control" />
+					<input type="text" name="nacionalidade_locatario" class="form-control" />
 				</div>
 			</div>
 
             <div class="row mb-3">
-				<label class="col-sm-2 col-label-form">Nome do Locador</label>
+				<label class="col-sm-2 col-label-form">RG do Locatário</label>
 				<div class="col-sm-10">
-					<input type="text" name="nome_locador" class="form-control" />
+					<input type="text" name="RG_locatario" class="form-control" />
 				</div>
 			</div>
 
             <div class="row mb-3">
-				<label class="col-sm-2 col-label-form">Nome do Locador</label>
+				<label class="col-sm-2 col-label-form">CPF do Locatário</label>
 				<div class="col-sm-10">
-					<input type="text" name="nome_locador" class="form-control" />
+					<input type="text" name="CPF_locatario" class="form-control" />
 				</div>
 			</div>
             
             <!-- Objeto -->
+
+            <div class="row mb-3">
+				<label class="col-sm-2 col-label-form">Logradouro</label>
+				<div class="col-sm-10">
+					<input type="text" name="logradouro_objeto" class="form-control" />
+				</div>
+			</div>
+            <div class="row mb-3">
+				<label class="col-sm-2 col-label-form">Número</label>
+				<div class="col-sm-10">
+					<input type="text" name="numero_objeto" class="form-control" />
+				</div>
+			</div>
+            <div class="row mb-3">
+				<label class="col-sm-2 col-label-form">Complemento</label>
+				<div class="col-sm-10">
+					<input type="text" name="complemento_objeto" class="form-control" />
+				</div>
+			</div>
+            <div class="row mb-3">
+				<label class="col-sm-2 col-label-form">Bairro</label>
+				<div class="col-sm-10">
+					<input type="text" name="bairro_objeto" class="form-control" />
+				</div>
+			</div>
+            <div class="row mb-3">
+				<label class="col-sm-2 col-label-form">Cidade</label>
+				<div class="col-sm-10">
+					<input type="text" name="cidade_objeto" class="form-control" />
+				</div>
+			</div>
+            <div class="row mb-3">
+				<label class="col-sm-2 col-label-form">UF</label>
+				<div class="col-sm-10">
+					<input type="text" name="UF_objeto" class="form-control" />
+				</div>
+			</div>
+            
             <!-- Termos -->
+
+             <div class="row mb-3">
+				<label class="col-sm-2 col-label-form">Duração do contrato</label>
+				<div class="col-sm-10">
+					<input type="text" name="duracao_contrato" class="form-control" />
+				</div>
+			</div>
+
+             <div class="row mb-3">
+				<label class="col-sm-2 col-label-form">Valor do contrato</label>
+				<div class="col-sm-10">
+					<input type="text" name="valor_contrato" class="form-control" />
+				</div>
+			</div>
 
 			<!-- -->
 
