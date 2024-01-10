@@ -60,6 +60,21 @@ class StudentController extends Controller
         $student->RG_locador = $request->RG_locador;
         $student->CPF_locador = $request->CPF_locador;
 
+        $student->nome_locatario = $request->nome_locatario;
+        $student->nacionalidade_locatario = $request->nacionalidade_locatario;
+        $student->RG_locatario = $request->RG_locatario;
+        $student->CPF_locatario = $request->CPF_locatario;
+
+        $student->logradouro_objeto = $request->logradouro_objeto;
+        $student->numero_objeto = $request->numero_objeto;
+        $student->complemento_objeto = $request->complemento_objeto;
+        $student->bairro_objeto = $request->bairro_objeto;
+        $student->cidade_objeto = $request->cidade_objeto;
+        $student->UF_objeto = $request->UF_objeto;
+
+        $student->duracao_contrato = $request->duracao_contrato;
+        $student->valor_contrato = $request->valor_contrato;
+
 
         $student->save();
 
