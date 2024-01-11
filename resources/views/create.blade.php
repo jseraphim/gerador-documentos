@@ -53,67 +53,61 @@
 			<!-- Locador -->
 			<div class="row mb-3">
 				<label class="col-sm-2 col-label-form">Nome do Locador</label>
-				<div class="col-sm-10">
+				<div class="col-sm-3">
 					<input type="text" name="nome_locador" class="form-control" />
 				</div>
 			</div>
 			<div class="row mb-3">
 				<label class="col-sm-2 col-label-form">Nacionalidade</label>
-				<div class="col-sm-10">
+				<div class="col-sm-3">
 					<input type="text" name="nacionalidade_locador" class="form-control" />
 				</div>
 			</div>
 			<div class="row mb-3">
 				<label class="col-sm-2 col-label-form">Estado civil</label>
-				<div class="col-sm-10">
+				<div class="col-sm-3">
 					<input type="text" name="estado_civil_locador" class="form-control" />
 				</div>
 			</div>
 			<div class="row mb-3">
 				<label class="col-sm-2 col-label-form">RG</label>
-				<div class="col-sm-10">
+				<div class="col-sm-3">
 					<input type="text" name="RG_locador" class="form-control" />
 				</div>
 			</div>
 			<div class="row mb-3">
 				<label class="col-sm-2 col-label-form">CPF</label>
-				<div class="col-sm-10">
+				<div class="col-sm-3">
 					<input type="text" name="CPF_locador" class="form-control" />
 				</div>
 			</div>
-
-            
             <!-- Locatário -->
             <div class="row mb-3">
 				<label class="col-sm-2 col-label-form">Nome do Locatário</label>
-				<div class="col-sm-10">
+				<div class="col-sm-3">
 					<input type="text" name="nome_locatario" class="form-control" />
 				</div>
 			</div>
-
             <div class="row mb-3">
-				<label class="col-sm-2 col-label-form">Nome do Locador</label>
-				<div class="col-sm-10">
+				<label class="col-sm-2 col-label-form">Nacionalidade do Locador</label>
+				<div class="col-sm-3">
 					<input type="text" name="nacionalidade_locatario" class="form-control" />
 				</div>
 			</div>
-
             <div class="row mb-3">
 				<label class="col-sm-2 col-label-form">RG do Locatário</label>
-				<div class="col-sm-10">
+				<div class="col-sm-3">
 					<input type="text" name="RG_locatario" class="form-control" />
 				</div>
 			</div>
-
             <div class="row mb-3">
 				<label class="col-sm-2 col-label-form">CPF do Locatário</label>
-				<div class="col-sm-10">
+				<div class="col-sm-3">
 					<input type="text" name="CPF_locatario" class="form-control" />
 				</div>
 			</div>
-            
-            <!-- Objeto -->
 
+            <!-- Objeto -->			
             <div class="row mb-3">
 				<label class="col-sm-2 col-label-form">Logradouro</label>
 				<div class="col-sm-10">
