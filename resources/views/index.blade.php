@@ -13,7 +13,7 @@
 <div class="card">
 	<div class="card-header">
 		<div class="row">
-			<div class="col col-md-6"><b>Student Data</b></div>
+			<div class="col col-md-6"><b>Contratos registrados</b></div>
 			<div class="col col-md-6">
 				<a href="{{ route('students.create') }}" class="btn btn-success btn-sm float-end">Add</a>
 			</div>
@@ -23,9 +23,9 @@
 		<table class="table table-bordered">
 			<tr>
 				<th>Image</th>
-				<th>Name</th>
-				<th>Email</th>
-				<th>Gender</th>
+				<th>Locador</th>
+				<th>Locatário</th>
+				<th>Endereço</th>
 				<th>Action</th>
 			</tr>
 			@if(count($data) > 0)
@@ -34,9 +34,9 @@
 
 					<tr>
 						<td><img src="{{ asset('images/' . $row->student_image) }}" width="75" /></td>
-						<td>{{ $row->student_name }}</td>
-						<td>{{ $row->student_email }}</td>
-						<td>{{ $row->student_gender }}</td>
+						<td>{{ $row->nome_locador }}</td>
+						<td>{{ $row->nome_locatario }}</td>
+						<td>{{ $row->logradouro_objeto }}</td>
 						<td>
 							<form method="post" action="{{ route('students.destroy', $row->id) }}">
 								@csrf

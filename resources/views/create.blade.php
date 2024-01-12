@@ -17,8 +17,16 @@
 @endif
 
 <div class="card">
-	<div class="card-header">Add Student</div>
+	<div class="card-header">
+		<div class="row">
+			<div class="col col-md-6">Add Student</div>
+			<div class="col col-md-6">
+				<a href="{{ route('students.index') }}" class="btn btn-primary btn-sm float-end">View All</a>
+			</div>
+		</div>
+	</div>
 	<div class="card-body">
+	
 		<form method="post" action="{{ route('students.store') }}" enctype="multipart/form-data">
 			@csrf
 			<div class="row mb-3">
